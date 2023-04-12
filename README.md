@@ -17,7 +17,11 @@ The selected word will be automatically grabbed and translated to your target la
 - Select a word in an app or website.
 - Click <kbd>XButton1</kbd>.
 
-[![Watch the video](https://images.unsplash.com/photo-1521893618136-49740c7dd8c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMG1vb258ZW58MHx8MHx8&w=1000&q=80)](https://youtu.be/b1RroNft-vg)
+
+
+https://user-images.githubusercontent.com/115028809/231325338-2f7a9832-cedf-4e5b-940a-250aa3499556.mp4
+
+
 
 To get the youglish pronunciation of the translated word
 
