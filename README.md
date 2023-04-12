@@ -24,15 +24,15 @@ To get the youglish pronunciation of the translated word
 
 ## Keybindings
 
-<kbd>XButton1</kbd>: Translates a selected word or sentence.
-<kbd>XButton2</kbd>: Grabs the selected word and plays its pronunciation via Youglish.
+- <kbd>XButton1</kbd>: Translates a selected word or sentence.
+- <kbd>XButton2</kbd>: Grabs the selected word and plays its pronunciation via Youglish.
 
 ### Bounus for Obsidian
 
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>q</kbd>: Sets up a green/red highlighter macro for Obsidian.
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>r</kbd>: Translates a selected word or sentence in Obsidian.
-<kbd>@g</kbd>: Applies the green highlighter macro in Obsidian.
-<kbd>@r</kbd>: Applies the red highlighter macro in Obsidian.
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>q</kbd>: Sets up a green/red highlighter macro for Obsidian.
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>r</kbd>: Translates a selected word or sentence in Obsidian.
+- <kbd>@g</kbd>: Applies the green highlighter macro in Obsidian.
+- <kbd>@r</kbd>: Applies the red highlighter macro in Obsidian.
 
 ## Contribute
 
