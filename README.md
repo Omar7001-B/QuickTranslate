@@ -21,8 +21,7 @@ The selected word will be automatically grabbed and translated to your target la
 
 https://user-images.githubusercontent.com/115028809/231325338-2f7a9832-cedf-4e5b-940a-250aa3499556.mp4
 
-
-
+<br>
 
 To get the youglish pronunciation of the translated word
 
