@@ -23,6 +23,7 @@ https://user-images.githubusercontent.com/115028809/231325338-2f7a9832-cedf-4e5b
 
 
 
+
 To get the youglish pronunciation of the translated word
 
 - Select the text in chrome.
