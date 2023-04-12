@@ -9,6 +9,30 @@ Menu, Tray, Icon, Shell32.dll, 155
 XButton1::
 $^+r::
     WinGetActiveTitle, current_window
+    CopySelected()
+    SendToTranslator()
+    WinActivate, %current_window%
+return
+
+; Get the selection to youglish
+XButton2::
+    RightClickRunYouglish()
+return
+
+; Setting all macros inside obsidian
+; Converting seleciton to red line through
+$^+q::
+    ; Set up macros @r --> red & @g --> green
+    RedLineThrough()
+    Sleep, 100
+    Green()
+
+return
+
+;---------------------------------Functions---------------------------------
+; setting @r to make text red line through
+
+CopySelected(){
     if(WinActive("Obsidian")){
         SendInput, "
         SendInput, {NumpadAdd}
@@ -23,9 +47,11 @@ $^+r::
         Run, chrome.exe "https://translate.google.com.eg/" "--new-window"
         Sleep, 6000
     }
+}
 
+SendToTranslator(){
     Sleep, 100
-    WinActivate, Translate
+    WinActivate, Google Translate
     SendInput, !d
     Sleep, 100
     SendInput, ^v
@@ -35,11 +61,9 @@ $^+r::
         SendInput, !l
     }
     Sleep, 2000
-    WinActivate, %current_window%
-return
+}
 
-; Get the selection to youglish
-XButton2::
+RightClickRunYouglish(){
     if(WinActive("Chrome")){
         SendInput, {AppsKey}
         Sleep, 100
@@ -50,19 +74,8 @@ XButton2::
         SendInput, {Enter}
 
     }
-return
+}
 
-; Setting all macros inside obsidian
-; Converting seleciton to red line through
-$^+q::
-    ; Set up macros @r --> red & @g --> green
-    RedLineThrough()
-    Sleep, 100
-    Green()
-
-return
-
-; setting @r to make text red line through
 RedLineThrough(){
     SendInput, qr
     SendInput, s<span style="text-decoration: line-through; color:red;">
