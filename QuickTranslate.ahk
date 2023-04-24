@@ -52,11 +52,12 @@ CopySelected(){
 SendToTranslator(){
     Sleep, 100
     WinActivate, Google Translate
-    SendInput, !d
-    Sleep, 100
+    ;SendInput, !d
+    SendInput, ^a
+    Sleep, 10
     SendInput, ^v
     RegExReplace(Clipboard, ".*?[a-zA-Z-(']+" , , wrd, -1, 1)
-    Sleep, 1000
+    Sleep, 800
     if(wrd < 4){
         SendInput, !l
     }
@@ -72,7 +73,6 @@ RightClickRunYouglish(){
         SendInput, {Up}
         Sleep, 50
         SendInput, {Enter}
-
     }
 }
 
@@ -107,3 +107,7 @@ Green(){
 ;MsgBox, %OutputVarCount% words!
 
 ;return
+
+;How to improve clarity when it comes to speaking
+;- Phonotic Course
+;
